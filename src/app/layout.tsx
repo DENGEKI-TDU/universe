@@ -5,6 +5,12 @@ import React from "react"
 import { Box, Center, ChakraProvider, Link } from "@chakra-ui/react";
 import {Image} from "@chakra-ui/react"
 import { Analytics } from "@vercel/analytics/react"
+import {BIZ_UDGothic} from "next/font/google"
+
+const BIZ_UDGothicFont = BIZ_UDGothic({
+  weight: "400",
+  subsets: ["latin"]
+})
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="jp">
-        <body>
+        <body className={BIZ_UDGothicFont.className}>
         <ChakraProvider>
           <Link href="/">
           <Image src="header.png" width={"100%"} />

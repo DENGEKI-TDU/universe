@@ -26,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="jp">
+        <head>
+          
+        </head>
         <body className={BIZ_UDGothicFont.className}>
         <ChakraProvider>
           <Link href="/">

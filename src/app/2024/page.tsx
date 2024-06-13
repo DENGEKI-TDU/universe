@@ -1,4 +1,4 @@
-import { Box, Badge, Card, CardBody, CardHeader, Center, Heading, Image, Stack, StackDivider, Text, HStack } from "@chakra-ui/react";
+import { Box, Badge, Card, CardBody, CardHeader, Center, Heading, Image, Stack, StackDivider, Text, HStack, Flex, VStack } from "@chakra-ui/react";
 import React from "react";
 
 export default function Main() {
@@ -9,7 +9,8 @@ export default function Main() {
     </Center>
     <Center>詳細決定までお待ちください。</Center>
     <Center>
-      <Card id="1" border={"#69F0FD solid 1px"}>
+      <VStack>
+      {/* <Card id="1" border={"#69F0FD solid 1px"} margin="10px">
         <CardHeader>
           <Heading size='lg'>ケロポンの愉快な一日(仮)</Heading>
         </CardHeader>
@@ -17,10 +18,11 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box alignContent={"right"}>
             <HStack>
-              <Badge variant={"solid"} >劇団カラクリ</Badge>
+              <Badge variant={"solid"} >劇団カラクリ</Badge> */}
               {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
-              <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
-            </HStack>
+              {/* <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge> */}
+              {/* <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge> */}
+            {/* </HStack>
           </Box>
           <Center>
           <Image src="/poster/tmp_poster.png" width="50%" />
@@ -52,7 +54,53 @@ export default function Main() {
             </Box>
           </Stack>
         </CardBody>
-      </Card>
+      </Card> */}
+      {/* <Card id="1" border={"#FE6FFD solid 1px"} margin="10px">
+        <CardHeader>
+          <Heading size='lg'>ケロポンの愉快な一日(仮)</Heading>
+        </CardHeader>
+        <CardBody>
+          <Stack divider={<StackDivider />} spacing='4'>
+          <Box alignContent={"right"}>
+            <HStack> */}
+              {/* <Badge variant={"solid"} >劇団カラクリ</Badge> */}
+              {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
+              {/* <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge> */}
+              {/* <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge> */}
+            {/* </HStack>
+          </Box>
+          <Center>
+          <Image src="/poster/tmp_poster.png" width="50%" />
+          </Center>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                あらすじ
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+              ある日ケロポンは地動説を提唱する。<br />
+              ケロポンの運命やいかに！
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                脚本
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+              鳩山ケロ美
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                演出
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+              千住ケロ太郎
+              </Text>
+            </Box>
+          </Stack>
+        </CardBody>
+      </Card> */}
+      </VStack>
     </Center>
     </>
   );

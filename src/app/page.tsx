@@ -5,10 +5,14 @@ export default function Home() {
   return (
     <main>
       <Center>
-        <VStack>
+        <Box className="mainSentence">
         <Heading>みんなでつくる、<Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>それぞれの</Text>世界。<br/>
         みんなとつくる、<Text bgGradient="linear(to-r,#FE6FFD,#69F0FD)" bgClip="text" as="span" fontWeight={"extrabold"}>ひとつの</Text>世界。</Heading>
-        </VStack>
+        </Box>
+        <Box className="mainPhoneSentence">
+        <Heading fontSize={"lg"}>みんなでつくる、<Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>それぞれの</Text>世界。<br/>
+        みんなとつくる、<Text bgGradient="linear(to-r,#FE6FFD,#69F0FD)" bgClip="text" as="span" fontWeight={"extrabold"}>ひとつの</Text>世界。</Heading>
+        </Box>
       </Center>
       <Box width={"100%"} height={"5px"} marginTop="5px" marginBottom="5px" bgGradient={"linear(to-r,#69F0FD,#FE6FFD)"}></Box>
       <VStack>

@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <>
     <Center>
-      <Heading>2024年度<Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
+      <Heading>2024年度<br /><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
     </Center>
     <Center>詳細決定までお待ちください。</Center>
     {/* <Center>

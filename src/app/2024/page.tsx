@@ -8,7 +8,7 @@ export default function Main() {
       <Heading>2024年度<br /><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
     </Center>
     <Center>詳細決定までお待ちください。</Center>
-    {/* <Center>
+    <Center>
       <Card id="1" border={"#69F0FD solid 1px"}>
         <CardHeader>
           <Heading size='lg'>ケロポンの愉快な一日(仮)</Heading>
@@ -17,9 +17,9 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box alignContent={"right"}>
             <HStack>
-              <Badge variant={"solid"} >劇団カラクリ</Badge> */}
+              <Badge variant={"solid"} >劇団カラクリ</Badge>
               {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
-              {/* <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
+              <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
             </HStack>
           </Box>
           <Center>
@@ -53,7 +53,7 @@ export default function Main() {
           </Stack>
         </CardBody>
       </Card>
-    </Center>　*/}
+    </Center>
     </>
   );
 }

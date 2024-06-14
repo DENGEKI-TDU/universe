@@ -10,14 +10,14 @@ export default function Main() {
     {/* <Center>詳細決定までお待ちください。</Center> */}
     <Box>
       <Text>
-      <Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス 5403教室にて行われます！<br />
+      <Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス{/* 5403教室*/}にて行われます！<br />
       </Text>
-      <Text fontWeight={"bold"}>
+      {/* <Text fontWeight={"bold"}>
         開場：13:40<br/>
         開演：14:00<br/>
         終演：16:40<br/>
         終演時間は予定であり、前後する可能性があります。ご了承ください。
-      </Text>
+      </Text> */}
       <Text>本公演の共通ハッシュタグは<Link href="https://x.com/search?q=%23%E3%81%A7%E3%82%93%E3%82%AB%E3%83%A9UNIVERSE2024" target="_blank" color="blue.500">#でんカラUNIVERSE2024</Link>です！</Text>
     </Box>
     <Center>

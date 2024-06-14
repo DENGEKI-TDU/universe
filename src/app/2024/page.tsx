@@ -24,37 +24,40 @@ export default function Main() {
     <Center>
       <VStack>
       <Card className="kouen_card" id="1" border={"#69F0FD solid 1px"} margin="10px">
-        <CardHeader>
-          <Heading size='lg'>Comming soon...</Heading>
+        <CardHeader paddingBottom={"5px"}>
+          <HStack>
+          <Heading size='lg'>ボタン</Heading><Image marginRight={"0px"} height="40px" src="/poster/2024/logo/color/logo_1.png" />
+          </HStack>
         </CardHeader>
-        <CardBody>
+        <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
-              <Badge variant={"solid"} >劇団カラクリ</Badge>
+              <Badge bgColor={"gray.800"} variant={"solid"} >劇団カラクリ</Badge>
               {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
               <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
               {/* <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge> */}
             </HStack>
           </Box>
           <Center>
-          <Image src="/poster/2024/logo/logo_1.png" className="kouen_poster" />
+          <Image src="/poster/2024/button.jpg" className="kouen_poster" />
           </Center>
-            {/* <Box>
+            <Box>
               <Heading size='xs' textTransform='uppercase'>
                 あらすじ
               </Heading>
               <Text pt='2' fontSize='sm'>
-              ある日ケロポンは地動説を提唱する。<br />
-              ケロポンの運命やいかに！
+              ある日、とあるオカルト研究部の部長が謎のボタンを持ってきた。曰く、「絶対に押してはいけない」とのこと。<br/>
+              何が起こるかわからないボタン。ボタンを押してみたい気持ちと揺れ動く部員たち。<br/>
+              謎のボタンが巻き起こす10分間のドタバタ奇劇の一部始終をとくとご覧あれ。
               </Text>
             </Box>
-            <Box>
+            {/* <Box>
               <Heading size='xs' textTransform='uppercase'>
                 脚本
               </Heading>
               <Text pt='2' fontSize='sm'>
-              鳩山ケロ美
+                脚本家名
               </Text>
             </Box>
             <Box>
@@ -62,9 +65,25 @@ export default function Main() {
                 演出
               </Heading>
               <Text pt='2' fontSize='sm'>
-              千住ケロ太郎
+                演出太郎、演出補佐太郎(補佐)
               </Text>
             </Box> */}
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                開演目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                14:00
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                上演時間目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                10分間
+              </Text>
+            </Box>
           </Stack>
         </CardBody>
       </Card>
@@ -76,7 +95,7 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
-              {/* <Badge variant={"solid"} >劇団カラクリ</Badge> */}
+              {/* <Badge bgColor={"gray.800"} variant={"solid"} >劇団カラクリ</Badge> */}
               <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge>
               <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
               {/* <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge> */}
@@ -121,7 +140,7 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
-              <Badge variant={"solid"} >劇団カラクリ</Badge>
+              <Badge bgColor={"gray.800"} variant={"solid"} >劇団カラクリ</Badge>
               {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
               <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge>
               {/* <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge> */}
@@ -166,7 +185,7 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
-              {/* <Badge variant={"solid"} >劇団カラクリ</Badge> */}
+              {/* <Badge bgColor={"gray.800"} variant={"solid"} >劇団カラクリ</Badge> */}
               <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge>
               {/* <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge> */}
               <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge>
@@ -211,7 +230,7 @@ export default function Main() {
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
-              <Badge variant={"solid"} >劇団カラクリ</Badge>
+              <Badge bgColor={"gray.800"} variant={"solid"} >劇団カラクリ</Badge>
               {/* <Badge colorScheme="orange" variant={"solid"} >演劇集団【でんげき】</Badge> */}
               {/* <Badge colorScheme="blue" variant={"solid"} >前半ブロック</Badge> */}
               <Badge colorScheme="pink" variant={"solid"} >後半ブロック</Badge>

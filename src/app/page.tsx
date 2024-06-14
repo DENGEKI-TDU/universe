@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Heading, Text, Center, VStack, Box, Link, Stack, Card, CardBody, CardHeader, StackDivider } from "@chakra-ui/react";
+import React from "react";
 
 export default function Home() {
   return (

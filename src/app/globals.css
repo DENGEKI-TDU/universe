@@ -2,9 +2,21 @@
     .mainSentence{
         display: none;
     }
+    .kouen_card{
+        width: 95%;
+    }
+    .kouen_poster{
+        width:80%;
+    }
 }
 @media screen and (min-width: 480px) {
     .mainPhoneSentence{
         display: none;
+    }
+    .kouen_card {
+        width: 80%;
+    }
+    .kouen_poster{
+        width:50%;
     }
 }

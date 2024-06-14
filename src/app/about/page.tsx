@@ -28,7 +28,7 @@ export default function Main() {
       </Box>
       <Box className="phoneAboutCard">
         <Center>
-          <Box bgGradient={"linear(to-br,#69F0FD,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"}>
+          <Box bgGradient={"linear(to-br,#69F0FD,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"} marginBottom="10px">
             <Box marginTop={"25px"} marginRight={"20px"} marginLeft={"20px"} backgroundColor={"rgba(255,255,255,0.85)"} borderRadius={"xl"}>
               <Center>
                 <Text marginTop="10px" width={"94%"}>

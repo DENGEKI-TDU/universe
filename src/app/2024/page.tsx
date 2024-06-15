@@ -88,10 +88,12 @@ export default function Main() {
         </CardBody>
       </Card>
       <Card className="kouen_card" id="2" border={"#FE6FFD solid 1px"} margin="10px">
-        <CardHeader>
-          <Heading size='lg'>Comming soon...</Heading>
+        <CardHeader paddingBottom={"5px"}>
+          <HStack>
+          <Heading size='lg'>地獄にようこそ</Heading><Image marginRight={"0px"} height="40px" src="/poster/2024/logo/color/logo_2.png" />
+          </HStack>
         </CardHeader>
-        <CardBody>
+        <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
@@ -102,15 +104,15 @@ export default function Main() {
             </HStack>
           </Box>
           <Center>
-          <Image src="/poster/2024/logo/logo_2.png" className="kouen_poster" />
+          <Image src="/poster/2024/welcomeToHell.png" className="kouen_poster" />
           </Center>
-            {/* <Box>
+            <Box>
               <Heading size='xs' textTransform='uppercase'>
                 あらすじ
               </Heading>
               <Text pt='2' fontSize='sm'>
-              ある日ケロポンは地動説を提唱する。<br />
-              ケロポンの運命やいかに！
+              ある日、目を覚ますと二人は見知らぬ場所にいた。曰くそこは地獄だというが……<br/>
+              地獄を舞台にしたちょっぴり怖い？二人のドタバタコメディをお楽しみください
               </Text>
             </Box>
             <Box>
@@ -118,7 +120,7 @@ export default function Main() {
                 脚本
               </Heading>
               <Text pt='2' fontSize='sm'>
-              鳩山ケロ美
+              煮成焼也
               </Text>
             </Box>
             <Box>
@@ -126,17 +128,33 @@ export default function Main() {
                 演出
               </Heading>
               <Text pt='2' fontSize='sm'>
-              千住ケロ太郎
+              マリン
               </Text>
-            </Box> */}
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                開演目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                14:10
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                上演時間目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                30分間
+              </Text>
+            </Box>
           </Stack>
         </CardBody>
       </Card>
       <Card className="kouen_card" id="3" border={"#69F0FD solid 1px"} margin="10px">
-        <CardHeader>
+        <CardHeader paddingBottom={"5px"}>
           <Heading size='lg'>Comming soon...</Heading>
         </CardHeader>
-        <CardBody>
+        <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
@@ -178,10 +196,10 @@ export default function Main() {
         </CardBody>
       </Card>
       <Card className="kouen_card" id="4" border={"#FE6FFD solid 1px"} margin="10px">
-        <CardHeader>
+        <CardHeader paddingBottom={"5px"}>
           <Heading size='lg'>Comming soon...</Heading>
         </CardHeader>
-        <CardBody>
+        <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>
@@ -223,10 +241,10 @@ export default function Main() {
         </CardBody>
       </Card>
       <Card className="kouen_card" id="5" border={"#69F0FD solid 1px"} margin="10px">
-        <CardHeader>
+        <CardHeader paddingBottom={"5px"}>
           <Heading size='lg'>Comming soon...</Heading>
         </CardHeader>
-        <CardBody>
+        <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
           <Box textAlign={"right"}>
             <HStack>

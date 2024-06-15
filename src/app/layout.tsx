@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
       <html lang="jp">
         <head>
+          <link rel="icon" href="/favicon.ico" />
           <link rel="icon" sizes="any" href="/favicon.svg" type="image/svg+xml" />
           <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         </head>

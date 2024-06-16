@@ -22,8 +22,8 @@ export default function Main() {
         ご覧になりたいブロックの開演時間までにお越しください。<br />
         <Text as="span" color={"red"}>
         {new Date <= new Date(2024,6,22) ? <>
-        卒業生を含む学外の方は、セキュリティ上の観点から、事前の登録が必要です。<br/>
-        以下のフォームからご登録ください。<br/>
+        卒業生を含む学外の方は、セキュリティ上の観点から事前の登録が必要です。<br/>
+        以下のフォームから6/22までにご登録ください。<br/>
         <Link color="blue" href="https://docs.google.com/forms/d/e/1FAIpQLScjdLOoQEcIKrhvZHsaOB41TT_otA3D04FUc5oVCD0T-IIQRQ/viewform?usp=sf_link" borderBottom={"1px solid blue"}>こちらのフォームから登録を！</Link><br/>
         また、学外の方は入場時に受付が必要です。<br/>
         2号館1階にお立ち寄りの上、お越しください。

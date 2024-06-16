@@ -10,7 +10,7 @@ export default function Main() {
     <Center>
     <Box>
       <Text>
-      <Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス{/* 5403教室*/}にて行われます！<br />
+      <Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス{/* 5403教室*/}にて行われます！<br /><br/>
       </Text>
       <Text fontWeight={"bold"}>
         場所：東京電機大学東京千住キャンパス 5403教室<br/>
@@ -166,7 +166,10 @@ export default function Main() {
       </Card>
       <Card className="kouen_card" id="3" border={"#69F0FD solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
+          <HStack>
           <Heading size='lg'>DISCONNECT</Heading>
+          <Image marginRight={"0px"} height="40px" src="/poster/2024/logo/logo_3.png" />
+          </HStack>
         </CardHeader>
         <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>

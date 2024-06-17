@@ -231,7 +231,10 @@ export default function Main() {
       </Card>
       <Card className="kouen_card" id="4" border={"#FE6FFD solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
-          <Heading size='lg'>Comming soon...</Heading>
+          <HStack>
+          <Heading size='lg'>午後三時半、生徒会室にて</Heading>
+          <Image marginRight={"0px"} height="40px" src="/poster/2024/logo/color/logo_4.png" />
+          </HStack>
         </CardHeader>
         <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
@@ -244,15 +247,15 @@ export default function Main() {
             </HStack>
           </Box>
           <Center>
-          <Image src="/poster/2024/logo/logo_4.png" className="kouen_poster" />
+          <Image src="/poster/2024/3pm.png" className="kouen_poster" />
           </Center>
-            {/* <Box>
+            <Box>
               <Heading size='xs' textTransform='uppercase'>
                 あらすじ
               </Heading>
               <Text pt='2' fontSize='sm'>
-              ある日ケロポンは地動説を提唱する。<br />
-              ケロポンの運命やいかに！
+              午後三時半、とある男子校の生徒会室。<br/>
+              四人の生徒会役員は、異性に飢えた生徒たち(含自分達)を救済すべく「女子が集まるウハウハな学園祭」を目指し、議論を白熱させていた────
               </Text>
             </Box>
             <Box>
@@ -260,7 +263,7 @@ export default function Main() {
                 脚本
               </Heading>
               <Text pt='2' fontSize='sm'>
-              鳩山ケロ美
+              あかざとう
               </Text>
             </Box>
             <Box>
@@ -268,9 +271,25 @@ export default function Main() {
                 演出
               </Heading>
               <Text pt='2' fontSize='sm'>
-              千住ケロ太郎
+              ナギ
               </Text>
-            </Box> */}
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                開演目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                15:30
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                上演時間目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                30分間
+              </Text>
+            </Box>
           </Stack>
         </CardBody>
       </Card>

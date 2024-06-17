@@ -26,18 +26,6 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="jp">
-        <head>
-          <link
-            rel="icon"
-            href="/icon.svg"
-            type="image/svg+xml"
-          />
-          <link
-            rel="apple-touch-icon"
-            href="/apple-icon.png"
-            type="image/png"
-          />
-        </head>
         <body className={BIZ_UDGothicFont.className}>
         <ChakraProvider>
           <Link href="/">

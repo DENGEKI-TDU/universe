@@ -6,12 +6,12 @@ export default function Main() {
   return (
     <>
       <Center>
-        <Heading><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画って？</Heading>
+        <Heading><Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画って？</Heading>
       </Center>
       <Box className="aboutCard">
         <Center width="100%" height="100%">
           <HStack width="100%" height={"100%"}>
-          <Box width={"5px"} height={"500px"} marginRight={"3%"} bgGradient={"linear(to-b,#69F0FD,#FE6FFD)"} />
+          <Box width={"5px"} height={"500px"} marginRight={"3%"} bgGradient={"linear(to-b,#00BFFF,#FE6FFD)"} />
             <Center marginTop="10px" width={"94%"}>
               <VStack>
               <Text>
@@ -23,17 +23,17 @@ export default function Main() {
               部員みんなからあふれ出る心の声、舞台にかける思い。<br/>
               それらを組み合わせて、それぞれの演劇部の特徴が入り混じった一つの劇空間を創ってみない？<br />
               そんな空間創りの計画、<br/>
-              <Text as="span" fontSize={"2xl"}><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画。</Text>
+              <Text as="span" fontSize={"2xl"}><Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画。</Text>
               </Text>
               </VStack>
           </Center>
-          <Box width={"5px"} height={"500px"} marginLeft={"3%"} bgGradient={"linear(to-t,#69F0FD,#FE6FFD)"} />
+          <Box width={"5px"} height={"500px"} marginLeft={"3%"} bgGradient={"linear(to-t,#00BFFF,#FE6FFD)"} />
           </HStack>
         </Center>
       </Box>
       <Box className="phoneAboutCard">
         <Center>
-          <Box bgGradient={"linear(to-br,#69F0FD,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"} marginBottom="10px">
+          <Box bgGradient={"linear(to-br,#00BFFF,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"} marginBottom="10px">
             <Box marginTop={"25px"} marginRight={"20px"} marginLeft={"20px"} backgroundColor={"rgba(255,255,255,0.85)"} borderRadius={"xl"}>
               <Center>
                 <Text marginTop="10px" width={"94%"}>
@@ -45,7 +45,7 @@ export default function Main() {
                   部員みんなからあふれ出る心の声、舞台にかける思い。<br/>
                   それらを組み合わせて、それぞれの演劇部の特徴が入り混じった一つの劇空間を創ってみない？<br />
                   そんな空間創りの計画、<br/>
-                  <Text as="span" fontSize={"2xl"}><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画。</Text>
+                  <Text as="span" fontSize={"2xl"}><Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text>計画。</Text>
                 </Text>
               </Center>
             </Box>

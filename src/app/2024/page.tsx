@@ -5,12 +5,12 @@ export default function Main() {
   return (
     <>
     <Center>
-      <Heading>2024年度<br /><Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
+      <Heading>2024年度<br /><Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
     </Center>
     <Center>
     <Box>
       <Text>
-      <Text bgGradient="linear(to-r,#69F0FD,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス{/* 5403教室*/}にて行われます！<br /><br/>
+      <Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>でんげき×カラクリUNI-VERSE!!2024</Text>は、東京電機大学東京千住キャンパス{/* 5403教室*/}にて行われます！<br /><br/>
       </Text>
       <Text fontWeight={"bold"}>
         場所：東京電機大学東京千住キャンパス 5403教室<br/>
@@ -37,7 +37,7 @@ export default function Main() {
     </Center>
     <Center>
       <VStack>
-      <Card className="kouen_card" id="1" border={"#69F0FD solid 1px"} margin="10px">
+      <Card className="kouen_card" id="1" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
           <HStack>
           <Heading size='lg'>ボタン</Heading><Image marginRight={"0px"} height="40px" src="/poster/2024/logo/color/logo_1.png" />
@@ -164,7 +164,7 @@ export default function Main() {
           </Stack>
         </CardBody>
       </Card>
-      <Card className="kouen_card" id="3" border={"#69F0FD solid 1px"} margin="10px">
+      <Card className="kouen_card" id="3" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
           <HStack>
           <Heading size='lg'>DISCONNECT</Heading>
@@ -293,7 +293,7 @@ export default function Main() {
           </Stack>
         </CardBody>
       </Card>
-      <Card className="kouen_card" id="5" border={"#69F0FD solid 1px"} margin="10px">
+      <Card className="kouen_card" id="5" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
           <Heading size='lg'>Comming soon...</Heading>
         </CardHeader>

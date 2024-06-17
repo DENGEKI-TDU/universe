@@ -168,7 +168,7 @@ export default function Main() {
         <CardHeader paddingBottom={"5px"}>
           <HStack>
           <Heading size='lg'>DISCONNECT</Heading>
-          <Image marginRight={"0px"} height="40px" src="/poster/2024/logo/logo_3.png" />
+          <Image marginRight={"0px"} height="40px" src="/poster/2024/logo/color/logo_3.png" />
           </HStack>
         </CardHeader>
         <CardBody paddingTop={"5px"}>

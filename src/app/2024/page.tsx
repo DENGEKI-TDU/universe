@@ -295,7 +295,10 @@ export default function Main() {
       </Card>
       <Card className="kouen_card" id="5" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
-          <Heading size='lg'>Comming soon...</Heading>
+          <HStack>
+            <Heading size='lg'>You are Hero!</Heading>
+            <Image src="/poster/2024/logo/color/logo_5.png" height={"40px"}/>
+          </HStack>
         </CardHeader>
         <CardBody paddingTop={"5px"}>
           <Stack divider={<StackDivider />} spacing='4'>
@@ -308,18 +311,20 @@ export default function Main() {
             </HStack>
           </Box>
           <Center>
-          <Image src="/poster/2024/logo/logo_5.png" className="kouen_poster" />
+              <Image src="/poster/2024/YouAreHero.jpg" className="kouen_poster" />
           </Center>
-            {/* <Box>
+            <Box>
               <Heading size='xs' textTransform='uppercase'>
                 あらすじ
               </Heading>
               <Text pt='2' fontSize='sm'>
-              ある日ケロポンは地動説を提唱する。<br />
-              ケロポンの運命やいかに！
+              宇宙から襲来した機械生命体「メカリテ」により、人類は窮地に立たされた。<br/>
+              しかし、そこに現れた、超人的な力を持った謎の戦士により、人類は逆転。<br/>
+              人々にヒーローと呼ばれる彼女と、彼女に憧れる少年が出会うとき、物語は始まる。<br/>
+              はたして、人類はメカリテに勝利することができるのか……！
               </Text>
             </Box>
-            <Box>
+            {/* <Box>
               <Heading size='xs' textTransform='uppercase'>
                 脚本
               </Heading>
@@ -335,6 +340,22 @@ export default function Main() {
               千住ケロ太郎
               </Text>
             </Box> */}
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                開演目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                16:00
+              </Text>
+            </Box>
+            <Box>
+              <Heading size='xs' textTransform='uppercase'>
+                上演時間目安
+              </Heading>
+              <Text pt='2' fontSize='sm'>
+                40分間
+              </Text>
+            </Box>
           </Stack>
         </CardBody>
       </Card>

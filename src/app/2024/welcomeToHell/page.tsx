@@ -1,16 +1,6 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
 import Head from "next/head"
 
-
-export function Home(){
-  return(
-    <>
-      <KouenCardWelcomeToHell />
-      <Link href="/2024">←←公演全体のページに戻る</Link>
-    </>
-  )
-}
-
 export default function KouenCardWelcomeToHell() {
     return (
       <>

@@ -2,15 +2,6 @@ import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack
 import {ArrowLeftIcon} from "@chakra-ui/icons"
 import Head from "next/head"
 
-export function Home(){
-  return(
-    <>
-      <KouenCard3pm />
-      <Link href="/2024">←←公演全体のページに戻る</Link>
-    </>
-  )
-}
-
 export default function KouenCard3pm() {
     return (
       <>

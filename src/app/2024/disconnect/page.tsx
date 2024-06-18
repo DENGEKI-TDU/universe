@@ -4,7 +4,7 @@ import Head from "next/head"
 export default function KouenCardDisconnect() {
     return (
       <>
-        <Head>
+        
           <meta property="og:title" content="DISCONNECT | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
@@ -20,7 +20,7 @@ export default function KouenCardDisconnect() {
             property="og:image"
             content="https://universe.dengeki-fox.net/poster/2024/disconnect.png"
           />
-        </Head>
+        
         <Center>
         <Card className="kouen_card" id="3" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>

@@ -42,6 +42,18 @@ export default function RootLayout({
             property="og:image"
             content="https://universe.dengeki-fox.net/logo.png"
           />
+          <meta
+            name="description"
+            content="でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。"
+          />
+          <meta
+            property="og:description"
+            content="でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。"
+          />
+          <meta
+            name="twitter:description"
+            content="でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。"
+          />
         </head>
         <body className={BIZ_UDGothicFont.className}>
         <ChakraProvider>

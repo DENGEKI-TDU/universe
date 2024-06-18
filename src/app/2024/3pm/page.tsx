@@ -11,7 +11,7 @@ export function Home(){
   )
 }
 
-export function KouenCard3pm() {
+export default function KouenCard3pm() {
     return (
       <>
         <Head>
@@ -107,5 +107,3 @@ export function KouenCard3pm() {
       </>
     )
 }
-
-export default Home()

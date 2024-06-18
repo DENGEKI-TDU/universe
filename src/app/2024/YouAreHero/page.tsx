@@ -10,7 +10,7 @@ export function Home(){
   )
 }
 
-export function KouenCardYouAreHero() {
+export default function KouenCardYouAreHero() {
     return (
       <>
       <Head>
@@ -108,5 +108,3 @@ export function KouenCardYouAreHero() {
       </>
     )
 }
-
-export default Home()

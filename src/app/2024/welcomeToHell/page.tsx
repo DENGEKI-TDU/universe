@@ -11,7 +11,7 @@ export function Home(){
   )
 }
 
-export function KouenCardWelcomeToHell() {
+export default function KouenCardWelcomeToHell() {
     return (
       <>
         <Head>
@@ -104,5 +104,3 @@ export function KouenCardWelcomeToHell() {
       </>
     )
 }
-
-export default Home()

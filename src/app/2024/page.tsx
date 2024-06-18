@@ -1,10 +1,10 @@
 import { Box, Badge, Card, CardBody, CardHeader, Center, Heading, Image, Stack, StackDivider, Text, HStack, Flex, VStack, Link, Button } from "@chakra-ui/react";
 import React from "react";
-import { KouenCardButton} from "./button/page"
-import {KouenCardWelcomeToHell} from "./welcomeToHell/page"
-import {KouenCardDisconnect} from "./disconnect/page"
-import {KouenCard3pm} from "./3pm/page"
-import {KouenCardYouAreHero} from "./YouAreHero/page"
+import  KouenCardButton from "./button/page"
+import KouenCardWelcomeToHell from "./welcomeToHell/page"
+import KouenCardDisconnect from "./disconnect/page"
+import KouenCard3pm from "./3pm/page"
+import KouenCardYouAreHero from "./YouAreHero/page"
 
 export default function Main() {
   return (

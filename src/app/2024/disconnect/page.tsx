@@ -10,7 +10,7 @@ export function Home(){
   )
 }
 
-export function KouenCardDisconnect() {
+export default function KouenCardDisconnect() {
     return (
       <>
         <Head>
@@ -108,5 +108,3 @@ export function KouenCardDisconnect() {
       </>
     )
 }
-
-export default Home()

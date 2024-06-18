@@ -10,7 +10,7 @@ export function Home(){
   )
 }
 
-export function KouenCardButton() {
+export default function KouenCardButton() {
     return (
       <>
         <Head>
@@ -106,5 +106,3 @@ export function KouenCardButton() {
       </>
     )
 }
-
-export default Home()

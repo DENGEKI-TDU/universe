@@ -11,7 +11,7 @@ export default function Main() {
       <Box className="aboutCard">
         <Center width="100%" height="100%">
           <HStack width="100%" height={"100%"}>
-          <Box width={"5px"} height={"500px"} marginRight={"3%"} bgGradient={"linear(to-b,#00BFFF,#FE6FFD)"} />
+          <Box width={"5px"} height={"500px"} marginRight={"3%"} bgGradient={"linear(to-b,#69F0FD,#FE6FFD)"} />
             <Center marginTop="10px" width={"94%"}>
               <VStack>
               <Text>
@@ -27,13 +27,13 @@ export default function Main() {
               </Text>
               </VStack>
           </Center>
-          <Box width={"5px"} height={"500px"} marginLeft={"3%"} bgGradient={"linear(to-t,#00BFFF,#FE6FFD)"} />
+          <Box width={"5px"} height={"500px"} marginLeft={"3%"} bgGradient={"linear(to-t,#69F0FD,#FE6FFD)"} />
           </HStack>
         </Center>
       </Box>
       <Box className="phoneAboutCard">
         <Center>
-          <Box bgGradient={"linear(to-br,#00BFFF,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"} marginBottom="10px">
+          <Box bgGradient={"linear(to-br,#69F0FD,#FE6FFD)"} width={"100%"} color="black" borderRadius={"xl"} marginBottom="10px">
             <Box marginTop={"25px"} marginRight={"20px"} marginLeft={"20px"} backgroundColor={"rgba(255,255,255,0.85)"} borderRadius={"xl"}>
               <Center>
                 <Text marginTop="10px" width={"94%"}>

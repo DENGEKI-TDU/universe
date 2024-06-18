@@ -7,6 +7,7 @@ import {Image} from "@chakra-ui/react"
 import { Analytics } from "@vercel/analytics/react"
 import {BIZ_UDGothic} from "next/font/google"
 import { Text } from "@chakra-ui/react";
+import Favicon from "/public/favicon.ico"
 
 const BIZ_UDGothicFont = BIZ_UDGothic({
   weight: "400",
@@ -18,6 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "でんげき×カラクリ UNI-VERSE",
   description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+  icons:[{rel: "icon",url:Favicon.src}],
 };
 
 export default function RootLayout({
@@ -28,7 +30,7 @@ export default function RootLayout({
   return (
       <html lang="jp">
         <head>
-          <link
+          {/* <link
             rel="shortcut icon"
             href="/favicon.ico"
             type="image/vnd.microsoft.icon"
@@ -36,7 +38,7 @@ export default function RootLayout({
           <link
             rel="apple-touch-icon"
             href="/apple-touch-icon.png" 
-          />
+          /> */}
           <meta property="og:title" content="でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />

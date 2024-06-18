@@ -1,4 +1,4 @@
-import { Box, Badge, Card, CardBody, CardHeader, Center, Heading, Image, Stack, StackDivider, Text, HStack, Flex, VStack, Link } from "@chakra-ui/react";
+import { Box, Badge, Card, CardBody, CardHeader, Center, Heading, Image, Stack, StackDivider, Text, HStack, Flex, VStack, Link, Button } from "@chakra-ui/react";
 import React from "react";
 
 export default function Main() {
@@ -98,6 +98,13 @@ export default function Main() {
                 10分間
               </Text>
             </Box>
+            <Box>
+              <HStack>
+                <Link href="https://twitter.com/intent/tweet?text=劇団カラクリによる、でんげき×カラクリUNIVERSE!!2024上演作品「ボタン」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024%231 %0D &hashtags=でんカラUNIVERSE2024,ボタン,劇団カラクリ%0Dhttps://x.com/tdu1000ju_pd/status/1801540309278724330/photo/1" target="_blank">
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                </Link>
+              </HStack>
+            </Box>
           </Stack>
         </CardBody>
       </Card>
@@ -160,6 +167,13 @@ export default function Main() {
               <Text pt='2' fontSize='sm'>
                 30分間
               </Text>
+            </Box>
+            <Box>
+              <HStack>
+                <Link href="https://twitter.com/intent/tweet?text=演劇集団【でんげき】による、でんげき×カラクリUNIVERSE!!2024上演作品「地獄にようこそ」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024%232 %0D &hashtags=でんカラUNIVERSE2024,地獄にようこそ,演劇集団でんげき%0Dhttps://x.com/TDUdramaclub/status/1801902476188176597/photo/1" target="_blank">
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                </Link>
+              </HStack>
             </Box>
           </Stack>
         </CardBody>
@@ -226,6 +240,14 @@ export default function Main() {
                 20分間
               </Text>
             </Box>
+            
+            <Box>
+              <HStack>
+                <Link href="https://twitter.com/intent/tweet?text=劇団カラクリによる、でんげき×カラクリUNIVERSE!!2024上演作品「DISCCONECT」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024%233 %0D &hashtags=でんカラUNIVERSE2024,DISCCONECT,劇団カラクリ%0Dhttps://x.com/tdu1000ju_pd/status/1802265046078431562/photo/1" target="_blank">
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                </Link>
+              </HStack>
+            </Box>
           </Stack>
         </CardBody>
       </Card>
@@ -289,6 +311,13 @@ export default function Main() {
               <Text pt='2' fontSize='sm'>
                 30分間
               </Text>
+            </Box>
+            <Box>
+              <HStack>
+                <Link href="https://twitter.com/intent/tweet?text=演劇集団【でんげき】による、でんげき×カラクリUNIVERSE!!2024上演作品「午後三時半、生徒会室にて」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024%234 %0D &hashtags=でんカラUNIVERSE2024,午後三時半生徒会室にて,演劇集団でんげき%0Dhttps://x.com/TDUdramaclub/status/1802627248752832844/photo/1" target="_blank">
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                </Link>
+              </HStack>
             </Box>
           </Stack>
         </CardBody>
@@ -355,6 +384,13 @@ export default function Main() {
               <Text pt='2' fontSize='sm'>
                 40分間
               </Text>
+            </Box>
+            <Box>
+              <HStack>
+                <Link href="https://twitter.com/intent/tweet?text=劇団カラクリによる、でんげき×カラクリUNIVERSE!!2024上演作品「You are Hero!」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024%235 %0D &hashtags=でんカラUNIVERSE2024,YouareHero,劇団カラクリ%0Dhttps://x.com/tdu1000ju_pd/status/1803010334644716027/photo/1" target="_blank">
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                </Link>
+              </HStack>
             </Box>
           </Stack>
         </CardBody>

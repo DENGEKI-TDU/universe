@@ -28,6 +28,15 @@ export default function RootLayout({
   return (
       <html lang="jp">
         <head>
+          <link
+            rel="shortcut icon"
+            href="/favicon.ico"
+            type="image/vnd.microsoft.icon"
+          />
+          <link
+            rel="apple-touch-icon"
+            href="/apple-touch-icon.png" 
+          />
           <meta property="og:title" content="でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />

@@ -14,7 +14,7 @@ export const KouenCardYouAreHero:any = () => {
     return (
       <>
       <Head>
-          <meta property="og:title" content="You are Hero! | でんげき×カラクリUNI-VERSE!!" />
+          <meta property="og:title" content="You are Hero | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
           <meta name="twitter:card" content="summary_large_image" />

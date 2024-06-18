@@ -26,6 +26,23 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="jp">
+        <head>
+          <meta property="og:title" content="演劇集団【でんげき】" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://universe.dengeki-fox.net" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="演劇集団【でんげき】" />
+          <meta name="twitter:site" content="@TDUdramaclub" />
+          <meta name="twitter:creator" content="@TDUdramaclub" />
+          <meta
+            name="twitter:image"
+            content="https://universe.dengeki-fox.net/logo.png"
+          />
+          <meta
+            property="og:image"
+            content="https://universe.dengeki-fox.net/logo.png"
+          />
+        </head>
         <body className={BIZ_UDGothicFont.className}>
         <ChakraProvider>
           <Link href="/">

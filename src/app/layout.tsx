@@ -9,6 +9,7 @@ import {BIZ_UDGothic} from "next/font/google"
 import { Text } from "@chakra-ui/react";
 import Favicon from "/public/favicon.ico"
 import Favicon_png from "/public/apple-touch-icon.png"
+import Favicon_svg from "/public/favicon.svg"
 
 const BIZ_UDGothicFont = BIZ_UDGothic({
   weight: "400",
@@ -20,7 +21,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "でんげき×カラクリ UNI-VERSE",
   description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
-  icons:[{rel: "shortct icon",url:Favicon.src},{rel:"apple-touch-icon",url:Favicon_png.src}],
+  icons:[{rel: "shortct icon",url:Favicon.src},{rel:"apple-touch-icon",url:Favicon_png.src},{rel:"icon",url:Favicon_svg.src}],
 };
 
 export default function RootLayout({

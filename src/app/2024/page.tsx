@@ -9,6 +9,21 @@ import KouenCardYouAreHero from "./YouAreHero/page"
 export default function Main() {
   return (
     <>
+    <meta property="og:title" content="2024 | でんげき×カラクリUNI-VERSE!!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://universe.dengeki-fox.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="2024 | でんげき×カラクリUNI-VERSE!!" />
+    <meta name="twitter:site" content="@TDUdramaclub" />
+    <meta name="twitter:creator" content="@TDUdramaclub" />
+    <meta
+      name="twitter:image"
+      content="https://universe.dengeki-fox.net/logo.png"
+    />
+    <meta
+      property="og:image"
+      content="https://universe.dengeki-fox.net/logo.png"
+    />
     <Center>
       <Heading>2024年度<br /><Text bgGradient="linear(to-r,#00BFFF,#FE6FFD)" bgClip="text" as="span" fontWeight={"extrabold"}>UNI-VERSE!!</Text></Heading>
     </Center>

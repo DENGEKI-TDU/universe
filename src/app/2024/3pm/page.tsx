@@ -2,7 +2,7 @@ import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack
 import {ArrowLeftIcon} from "@chakra-ui/icons"
 import Head from "next/head"
 
-export default function Home(){
+export function Home(){
   return(
     <>
       <KouenCard3pm />
@@ -11,7 +11,7 @@ export default function Home(){
   )
 }
 
-export const KouenCard3pm:any = () => {
+export function KouenCard3pm() {
     return (
       <>
         <Head>
@@ -107,3 +107,5 @@ export const KouenCard3pm:any = () => {
       </>
     )
 }
+
+export default Home()

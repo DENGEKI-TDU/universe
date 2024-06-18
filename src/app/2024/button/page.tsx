@@ -1,7 +1,7 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
 import Head from "next/head"
 
-export default function Home(){
+export function Home(){
   return(
     <>
       <KouenCardButton />
@@ -10,7 +10,7 @@ export default function Home(){
   )
 }
 
-export const KouenCardButton:any = () => {
+export function KouenCardButton() {
     return (
       <>
         <Head>
@@ -106,3 +106,5 @@ export const KouenCardButton:any = () => {
       </>
     )
 }
+
+export default Home()

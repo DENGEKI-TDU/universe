@@ -2,7 +2,7 @@ import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack
 import Head from "next/head"
 
 
-export default function Home(){
+export function Home(){
   return(
     <>
       <KouenCardWelcomeToHell />
@@ -11,7 +11,7 @@ export default function Home(){
   )
 }
 
-export const KouenCardWelcomeToHell:any = () => {
+export function KouenCardWelcomeToHell() {
     return (
       <>
         <Head>
@@ -104,3 +104,5 @@ export const KouenCardWelcomeToHell:any = () => {
       </>
     )
 }
+
+export default Home()

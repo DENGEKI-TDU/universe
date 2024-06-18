@@ -1,4 +1,5 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
+import { Head } from "next/document"
 
 
 export default function Home(){
@@ -13,21 +14,23 @@ export default function Home(){
 export function KouenCardWelcomeToHell(){
     return (
       <>
-      <meta property="og:title" content="地獄にようこそ | でんげき×カラクリUNI-VERSE!!" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://universe.dengeki-fox.net" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="地獄にようこそ | でんげき×カラクリUNI-VERSE!!" />
-      <meta name="twitter:site" content="@TDUdramaclub" />
-      <meta name="twitter:creator" content="@TDUdramaclub" />
-      <meta
-        name="twitter:image"
-        content="https://universe.dengeki-fox.net/poster/2024/welcomeToHell.png"
-      />
-      <meta
-        property="og:image"
-        content="https://universe.dengeki-fox.net/poster/2024/welcomeToHell.png"
-      />
+        <Head>
+          <meta property="og:title" content="地獄にようこそ | でんげき×カラクリUNI-VERSE!!" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://universe.dengeki-fox.net" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="地獄にようこそ | でんげき×カラクリUNI-VERSE!!" />
+          <meta name="twitter:site" content="@TDUdramaclub" />
+          <meta name="twitter:creator" content="@TDUdramaclub" />
+          <meta
+            name="twitter:image"
+            content="https://universe.dengeki-fox.net/poster/2024/welcomeToHell.png"
+          />
+          <meta
+            property="og:image"
+            content="https://universe.dengeki-fox.net/poster/2024/welcomeToHell.png"
+          />
+        </Head>
         <Card className="kouen_card" id="2" border={"#FE6FFD solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
           <HStack>

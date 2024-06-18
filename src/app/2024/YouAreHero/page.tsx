@@ -1,5 +1,5 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
-import { Head } from "next/document"
+import Head from "next/head"
 
 export default function Home(){
   return(
@@ -10,10 +10,10 @@ export default function Home(){
   )
 }
 
-export function KouenCardYouAreHero(){
+export const KouenCardYouAreHero:any = () => {
     return (
       <>
-        <Head>
+      <Head>
           <meta property="og:title" content="You are Hero! | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />

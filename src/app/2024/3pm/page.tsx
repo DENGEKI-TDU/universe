@@ -1,6 +1,6 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
 import {ArrowLeftIcon} from "@chakra-ui/icons"
-import { Head } from "next/document"
+import Head from "next/head"
 
 export default function Home(){
   return(
@@ -11,7 +11,7 @@ export default function Home(){
   )
 }
 
-export function KouenCard3pm(){
+export const KouenCard3pm:any = () => {
     return (
       <>
         <Head>

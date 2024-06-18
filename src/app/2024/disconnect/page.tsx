@@ -1,5 +1,5 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
-import { Head } from "next/document"
+import Head from "next/head"
 
 export default function Home(){
   return(
@@ -10,7 +10,7 @@ export default function Home(){
   )
 }
 
-export function KouenCardDisconnect(){
+export const KouenCardDisconnect:any = () => {
     return (
       <>
         <Head>

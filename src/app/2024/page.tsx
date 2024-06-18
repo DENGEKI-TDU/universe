@@ -3,7 +3,7 @@ import React from "react";
 import { KouenCardButton} from "./button/page"
 import {KouenCardWelcomeToHell} from "./welcomeToHell/page"
 import {KouenCardDisconnect} from "./disconnect/page"
-import { KouenCard3pm } from "./3pm/page"
+import {KouenCard3pm} from "./3pm/page"
 import {KouenCardYouAreHero} from "./YouAreHero/page"
 
 export default function Main() {

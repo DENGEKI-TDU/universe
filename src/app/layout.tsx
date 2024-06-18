@@ -60,7 +60,7 @@ export default function RootLayout({
         <ChakraProvider>
         <body className={BIZ_UDGothicFont.className}>
           <Link href="/">
-          <Image src="header.png" width={"100%"} />
+          <Image src="/header.png" width={"100%"} />
           </Link>
           <Center>
           <Box width="80%">
@@ -69,8 +69,7 @@ export default function RootLayout({
           </Center>
           <Analytics />
         </body>
-        <footer>
-          <Box bgGradient={"linear(to-r,#69F0FD,#FE6FFD)"} width={"100%"}>
+          <Box position={"relative"} bgGradient={"linear(to-r,#69F0FD,#FE6FFD)"} width={"100%"}>
               <Center width="100%" height="100%">
                 <VStack width="100%">
                   <Box width="100%" marginTop="15px">
@@ -125,7 +124,6 @@ export default function RootLayout({
                 </VStack>
               </Center>
           </Box>
-        </footer>
         </ChakraProvider>
       </html>
   );

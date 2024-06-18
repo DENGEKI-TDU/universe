@@ -5,7 +5,7 @@ import Head from "next/head"
 export default function KouenCard3pm() {
     return (
       <>
-        <Head>
+        
           <meta property="og:title" content="午後三時半、生徒会室にて | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
@@ -21,7 +21,7 @@ export default function KouenCard3pm() {
             property="og:image"
             content="https://universe.dengeki-fox.net/poster/2024/3pm.png"
           />
-        </Head>
+        
         <Center>
         <Card className="kouen_card" id="4" border={"#FE6FFD solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>

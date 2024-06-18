@@ -4,7 +4,7 @@ import Head from "next/head"
 export default function KouenCardYouAreHero() {
     return (
       <>
-      <Head>
+      
           <meta property="og:title" content="You are Hero | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
@@ -20,7 +20,7 @@ export default function KouenCardYouAreHero() {
             property="og:image"
             content="https://universe.dengeki-fox.net/poster/2024/YouAreHero.png"
           />
-        </Head>
+        
         <Center>
         <Card className="kouen_card" id="5" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>

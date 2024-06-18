@@ -4,7 +4,7 @@ import Head from "next/head"
 export default function KouenCardWelcomeToHell() {
     return (
       <>
-        <Head>
+        
           <meta property="og:title" content="地獄にようこそ | でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
@@ -20,7 +20,7 @@ export default function KouenCardWelcomeToHell() {
             property="og:image"
             content="https://universe.dengeki-fox.net/poster/2024/welcomeToHell.png"
           />
-        </Head>
+        
         <Card className="kouen_card" id="2" border={"#FE6FFD solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>
           <HStack>

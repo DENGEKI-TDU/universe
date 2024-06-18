@@ -27,11 +27,11 @@ export default function RootLayout({
   return (
       <html lang="jp">
         <head>
-          <meta property="og:title" content="演劇集団【でんげき】" />
+          <meta property="og:title" content="でんげき×カラクリUNI-VERSE!!" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://universe.dengeki-fox.net" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="演劇集団【でんげき】" />
+          <meta name="twitter:title" content="でんげき×カラクリUNI-VERSE!!" />
           <meta name="twitter:site" content="@TDUdramaclub" />
           <meta name="twitter:creator" content="@TDUdramaclub" />
           <meta

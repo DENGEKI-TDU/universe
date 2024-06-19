@@ -84,7 +84,7 @@ export default function KouenCardWelcomeToHell() {
             <Box>
               <HStack>
                 <Link href="https://twitter.com/intent/tweet?text=演劇集団【でんげき】による、でんげき×カラクリUNIVERSE!!2024上演作品「地獄にようこそ」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024/welcomeToHell %0D &hashtags=でんカラUNIVERSE2024,地獄にようこそ,演劇集団でんげき" target="_blank">
-                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"45px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"25px"} /><Text>Xで共有する</Text></HStack></Center></Box>
                 </Link>
               </HStack>
             </Box>

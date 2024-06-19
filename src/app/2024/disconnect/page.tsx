@@ -88,7 +88,7 @@ export default function KouenCardDisconnect() {
             <Box>
               <HStack>
                 <Link href="https://twitter.com/intent/tweet?text=劇団カラクリによる、でんげき×カラクリUNIVERSE!!2024上演作品「DISCONNECT」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024/disconnect %0D &hashtags=でんカラUNIVERSE2024,DISCONNECT,劇団カラクリ" target="_blank">
-                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"55px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"35px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"45px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"25px"} /><Text>Xで共有する</Text></HStack></Center></Box>
                 </Link>
               </HStack>
             </Box>

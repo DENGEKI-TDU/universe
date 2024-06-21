@@ -88,7 +88,7 @@ export default function KouenCardYouAreHero() {
             <Box>
               <HStack>
                 <Link href="https://twitter.com/intent/tweet?text=劇団カラクリによる、でんげき×カラクリUNIVERSE!!2024上演作品「You are Hero!」の詳細はこちらから！%20%0D⇩⇩%0D&url=https://universe.dengeki-fox.net/2024/YouAreHero %0D &hashtags=でんカラUNIVERSE2024,YouareHero,劇団カラクリ" target="_blank">
-                <Box borderRadius={"lg"} bgColor={"black"} color="white" height={"45px"}><Center><HStack margin={"10px"}><Image src="/xLogo/logo-white.png" height={"25px"} /><Text>Xで共有する</Text></HStack></Center></Box>
+                <Box borderRadius={"md"} bgColor={"black"} color="white" height={"35px"}><Center><HStack margin={"5px"}><Image src="/xLogo/logo-white.png" height={"15px"} /><Text>Xで共有する</Text></HStack></Center></Box>
                 </Link>
               </HStack>
             </Box>

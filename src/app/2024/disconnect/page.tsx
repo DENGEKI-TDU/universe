@@ -4,23 +4,6 @@ import Head from "next/head"
 export default function KouenCardDisconnect() {
     return (
       <>
-        
-          <meta property="og:title" content="DISCONNECT | でんげき×カラクリUNI-VERSE!!" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://universe.dengeki-fox.net" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="DISCONNECT | でんげき×カラクリUNI-VERSE!!" />
-          <meta name="twitter:site" content="@TDUdramaclub" />
-          <meta name="twitter:creator" content="@TDUdramaclub" />
-          <meta
-            name="twitter:image"
-            content="https://universe.dengeki-fox.net/poster/2024/dicsonnect.png"
-          />
-          <meta
-            property="og:image"
-            content="https://universe.dengeki-fox.net/poster/2024/disconnect.png"
-          />
-        
         <Center>
         <Card className="kouen_card" id="3" border={"#00BFFF solid 1px"} margin="10px">
         <CardHeader paddingBottom={"5px"}>

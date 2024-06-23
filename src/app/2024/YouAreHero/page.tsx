@@ -19,28 +19,6 @@ import Head from "next/head";
 export default function KouenCardYouAreHero() {
   return (
     <>
-      <meta
-        property="og:title"
-        content="You are Hero! | でんげき×カラクリUNI-VERSE!!"
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://universe.dengeki-fox.net" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="You are Hero! | でんげき×カラクリUNI-VERSE!!"
-      />
-      <meta name="twitter:site" content="@TDUdramaclub" />
-      <meta name="twitter:creator" content="@TDUdramaclub" />
-      <meta
-        name="twitter:image"
-        content="https://universe.dengeki-fox.net/poster/2024/YouAreHero.png"
-      />
-      <meta
-        property="og:image"
-        content="https://universe.dengeki-fox.net/poster/2024/YouAreHero.png"
-      />
-
       <Center>
         <Card
           className="kouen_card"

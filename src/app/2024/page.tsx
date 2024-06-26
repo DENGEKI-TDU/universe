@@ -118,7 +118,7 @@ export default function Main() {
           <KouenCardButton />
           <KouenCardWelcomeToHell />
           <KouenCardDisconnect />
-          <KouenCard3pm />
+          <KouenCard3pm isLoadOnMain={true} />
           <KouenCardYouAreHero />
         </VStack>
       </Center>

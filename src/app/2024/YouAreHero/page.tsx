@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
     siteName: "でんげき×カラクリUNI-VERSE!!",
     images: [{
-      url: "https://universe.dengeki-fox.net/poster/2024/YouAreHero.png",
+      url: "https://universe.dengeki-fox.net/poster/2024/YouAreHero.jpg",
     }],
   }
 };

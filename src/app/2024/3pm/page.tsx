@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   }
 };
 
-export default function KouenCard3pm({isLoadOnMain}:{isLoadOnMain:boolean}) {
+export default function KouenCard3pm() {
     return (
       <>
         <Center>

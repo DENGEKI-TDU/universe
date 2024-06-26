@@ -22,28 +22,27 @@ import KouenCardWelcomeToHell from "./welcomeToHell/page";
 import KouenCardDisconnect from "./disconnect/page";
 import KouenCard3pm from "./3pm/page";
 import KouenCardYouAreHero from "./YouAreHero/page";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "2024 | でんげき×カラクリ UNI-VERSE",
+  description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+  openGraph:
+  {
+    type: "website",
+    url: "https://universe.dengeki-fox.net",
+    title: "2024 | でんげき×カラクリ UNI-VERSE",
+    description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+    siteName: "でんげき×カラクリUNI-VERSE!!",
+    images: [{
+      url: "https://universe.dengeki-fox.net/logo.png",
+    }],
+  }
+};
 
 export default function Main() {
   return (
     <>
-      <meta property="og:title" content="2024 | でんげき×カラクリUNI-VERSE!!" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://universe.dengeki-fox.net" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="2024 | でんげき×カラクリUNI-VERSE!!"
-      />
-      <meta name="twitter:site" content="@TDUdramaclub" />
-      <meta name="twitter:creator" content="@TDUdramaclub" />
-      <meta
-        name="twitter:image"
-        content="https://universe.dengeki-fox.net/logo.png"
-      />
-      <meta
-        property="og:image"
-        content="https://universe.dengeki-fox.net/logo.png"
-      />
       <Center>
         <Heading>
           2024年度
@@ -118,7 +117,7 @@ export default function Main() {
           <KouenCardButton />
           <KouenCardWelcomeToHell />
           <KouenCardDisconnect />
-          <KouenCard3pm isLoadOnMain={true} />
+          <KouenCard3pm />
           <KouenCardYouAreHero />
         </VStack>
       </Center>

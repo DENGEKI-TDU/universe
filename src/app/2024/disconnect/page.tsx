@@ -1,5 +1,21 @@
 import { Card, border, Text, Image, CardHeader, HStack, Heading, CardBody, Stack, StackDivider, Badge, Center, Box, Link } from "@chakra-ui/react"
-import Head from "next/head"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DISCONNECT | でんげき×カラクリ UNI-VERSE",
+  description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+  openGraph:
+  {
+    type: "website",
+    url: "https://universe.dengeki-fox.net",
+    title: "DISCONNECT | でんげき×カラクリ UNI-VERSE",
+    description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+    siteName: "でんげき×カラクリUNI-VERSE!!",
+    images: [{
+      url: "https://universe.dengeki-fox.net/poster/2024/disconnect.png",
+    }],
+  }
+};
 
 export default function KouenCardDisconnect() {
     return (

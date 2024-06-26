@@ -14,7 +14,23 @@ import {
   Box,
   Link,
 } from "@chakra-ui/react";
-import Head from "next/head";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ボタン | でんげき×カラクリ UNI-VERSE",
+  description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+  openGraph:
+  {
+    type: "website",
+    url: "https://universe.dengeki-fox.net",
+    title: "ボタン | でんげき×カラクリ UNI-VERSE",
+    description: "でんげき×カラクリの合同企画「UNI-VERSE」の公式サイトです。",
+    siteName: "でんげき×カラクリUNI-VERSE!!",
+    images: [{
+      url: "https://universe.dengeki-fox.net/poster/2024/button.jpg",
+    }],
+  }
+};
 
 export default function KouenCardButton() {
   return (

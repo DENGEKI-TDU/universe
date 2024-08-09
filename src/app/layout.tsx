@@ -88,7 +88,7 @@ export default function RootLayout({
                         <VStack>
                           <Text>劇団カラクリ</Text>
                           <Text>
-                            X:<Link href="https://x.com/tdu100ju_pd">@tdu1000ju_pd</Link> <br/>
+                            X:<Link href="https://x.com/tdu1000ju_pd">@tdu1000ju_pd</Link> <br/>
                             Instagram:<Link href="https://www.instagram.com/karakuri_tdu/">@karakuri_tdu</Link>
                           </Text>
                         </VStack>
